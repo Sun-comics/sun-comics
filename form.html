@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div id="principal">
+        <header>
+            <h1>Login</h1>
+        </header>
+        <div id="dform">
+            <form action="cadastro.html" method="post" autocomplete="on">
+                <p>
+                    <label for="imail">Email:</label><br>
+                    <input type="email" name="email" id="imail" required placeholder="e-mail" autocomplete="email" size="38px">
+                </p>
+                <p>
+                    <label for="isenha">Senha:</label><br>
+                    <input type="password" name="senha" id="isenha" required autocomplete="current-password" minlength="8" maxlength="20" placeholder="senha" size="38px">
+                </p>
+              
+                <input id="button" type="submit" value="Login">
+                
+                <section id="esqs">
+                    <a href="#"> Esqueci a senha?</a>
+                </section>
+            </form>
+            <footer>
+               <a  class="buttonc" href="form2.html" target="_blank"> Crie uma conta</a>
+               
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
